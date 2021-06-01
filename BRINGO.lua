@@ -14351,7 +14351,6 @@ end
 end
 if #list == 0 then
 t = " ❤️☁️ لا يوجد ادمن"
-end
 send(msg.chat_id_,0,''..t..'\n⩹━━━━━━ ᏴᎡᎥΝᏀΌ ━━━━━━⩺\n ❤️☁️ تم التعديل على الميديا\n ❤️☁️ الشخص الي قام بالتعديل\n ❤️☁️ ايدي الشخص ◂ '..result.sender_user_id_..'\n ❤️☁️ معرف الشخص❤️☁️{ '..users..' }') 
 end,nil)
 DeleteMessage(msg.chat_id_,{[0] = msg.message_id_}) 
